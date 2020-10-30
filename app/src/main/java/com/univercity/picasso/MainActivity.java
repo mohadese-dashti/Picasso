@@ -32,7 +32,8 @@ String urlImage2 = "https://i.imgur.com/PjteAcu.jpg";
         Picasso.get()
                 .load(urlImage)
                 .fit().centerCrop()
-                .error(R.drawable.eror)
+                .error(R.drawable.erorr)
+                .placeholder(R.drawable.eror)
                 .into(image);
     }
 }
